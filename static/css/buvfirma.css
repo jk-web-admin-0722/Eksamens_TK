@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(212, 204, 194);
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    text-decoration: none;
+    color: blueviolet;
+    text-align: center;
+    padding: 10px 15px;
+}
