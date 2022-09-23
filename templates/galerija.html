@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/buvfirma.css">
-    <title>Bildes</title>
-</head>
-<body>
-    <h1>Mūsu darbi</h1>
+{% extends "layout.html" %}
 
-    <ul class="nav">
-        <li><a href="sakumlapa">Par mums</a></li>
+{% block saturs %}
 
-        <li><a href="pakalpojumi">Pakalpojumi</a></li>
-
-        <li><a href="specialisti">Speciālisti</a></li>
-    
-        <li><a href="kontakti">Kontakti</a></li>
-
-        <li><a class="active" href="galerija">Galerija</a></li>
-    <section>
     <h2>Mūsu darbi:</h2>
         <h3>Pirms un pēc:</h3>
   
@@ -40,7 +21,5 @@
 
     <p><a href="home"> Atpakaļ uz sākumu</a></p> 
     
-    </section>   
+{% endblock %} 
     
-</body>
-</html>

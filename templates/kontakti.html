@@ -1,28 +1,6 @@
-<!DOCTYPE html>
-<html lang="lv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/css/buvfirma.css">
-    <title>Kontakti</title>
-</head>
-<body>
-  <h1>Kontakti:</h1> 
+{% extends "layout.html" %}
 
-  <ul class="nav">
-    <li><a href="sakumlapa">Par mums</a></li>
-
-    <li><a href="pakalpojumi">Pakalpojumi</a></li>
-
-    <li><a href="specialisti">Speciālisti</a></li>
-
-    <li><a class="active" href="kontakti">Kontakti</a></li>
-
-    <li><a href="galerija">Galerija</a></li>
-</ul> 
-
-<section>
+{% block saturs %}
 
   <h2>Centrālais birojs</h2> 
   <p><strong>Tālrunis +371 27058071</strong></p>
@@ -32,6 +10,4 @@
 
   <p><a href="home">Atpakaļ uz sākumu</a></p>
   
-</section>
-</body>
-</html>
+{% endblock %} 
