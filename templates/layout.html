@@ -13,17 +13,17 @@
     <h2><strong><em>Kvalitatīvs remonts Jūsu mājoklim!</em></strong></h2>
 
     <ul class="nav">
-        <li><a href="home">Sākums</a></li>
+        <li><a {% if lapa == "home" %} class="active" {% endif %} href="home">Sākums</a></li>
         
-        <li><a href="sakumlapa">Par mums</a></li>
+        <li><a {% if lapa == "sakumlapa" %} class="active" {% endif %} href="sakumlapa">Par mums</a></li>
 
-        <li><a href="pakalpojumi">Pakalpojumi</a></li>
+        <li><a {% if lapa == "pakalpojumi" %} class="active" {% endif %} href="pakalpojumi">Pakalpojumi</a></li>
 
-        <li><a href="specialisti">Speciālisti</a></li>
+        <li><a {% if lapa == "specialisti" %} class="active" {% endif %} href="specialisti">Speciālisti</a></li>
     
-        <li><a href="kontakti">Kontakti</a></li>
+        <li><a {% if lapa == "kontakti" %} class="active" {% endif %} href="kontakti">Kontakti</a></li>
 
-        <li><a href="galerija">Galerija</a></li>
+        <li><a {% if lapa == "galerija" %} class="active" {% endif %} href="galerija">Galerija</a></li>
 
     </ul>
 
